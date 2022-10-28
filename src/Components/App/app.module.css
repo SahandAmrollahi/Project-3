@@ -1,0 +1,18 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: IranSans;
+    src: url("fonts/ttf/IRANSansWeb.ttf");
+    src: url("fonts/eot/IRANSansWeb.eot");
+    src: url("fonts/woff/IRANSansWeb.woff");
+    src: url("fonts/woff2/IRANSansWeb.woff2");
+}
+div.app{
+    width: 100%;
+    font-family: IranSans;
+    direction: rtl;
+    background-color: whitesmoke;
+}

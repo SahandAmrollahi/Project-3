@@ -1,0 +1,71 @@
+div.menu{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgray;
+    position: sticky;
+    top: 0;
+}
+div.menu>div.top{
+    padding: 5px 20px;
+    width: 100%;
+    height: 35px;
+    background-color: #0F1420;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.menu>div.top>img{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+div.menu>div.top>h1{
+    margin-right: 20px;
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+div.menu>div.bottom{
+    width: 100%;
+    height: 75px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+div.menu>div.bottom>nav{
+    width: inherit;
+    height: inherit;
+}
+div.menu>div.bottom>nav>ul{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+div.menu>div.bottom>nav>ul>li{
+    width: auto;
+    height: inherit;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+div.menu>div.bottom>nav>ul>li>img{
+    width: 169px;
+    height: 61px;
+    cursor: pointer;
+}
+div.menu>div.bottom>nav>ul>li>a{
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: none;
+    color: #454444;
+    transition: all 300ms linear;
+}
+div.menu>div.bottom>nav>ul>li>a:hover{
+    color: black;
+}
+
